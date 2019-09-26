@@ -1,0 +1,173 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    698606.qb3
+Username:  drayborn
+Group:     latechusers
+Date:      25-Sep-2019 18:35
+Node:      qb132 (118466)
+--------------------------------------
+PBS has allocated the following nodes:
+
+qb132
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node qb132 18:35:55 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 25-Sep-2019 18:35:55
+------------------------------------------------------
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2017 The MathWorks, Inc.
+                   R2017a (9.2.0.556344) 64-bit (glnxa64)
+                               March 27, 2017
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+Starting parallel pool (parpool) using the 'local' profile ...
+[Warning: The system time zone setting, 'US/Central', does not specify a single
+time zone unambiguously. It will be treated as 'America/Chicago'. See the <a
+href="matlab:doc('datetime.TimeZone')">datetime.TimeZone property</a> for
+details about specifying time zones.] 
+[> In verifyTimeZone (line 23)
+  In datetime (line 515)
+  In parallel.internal.cluster.DefaultProperties.getNewJobPropStruct (line 16)
+  In parallel.internal.cluster.CJSSupport/buildJob (line 158)
+  In parallel.cluster.CJSCluster/buildCommunicatingJob (line 465)
+  In parallel.Cluster/createCommunicatingJob (line 92)
+  In parallel.internal.pool.InteractiveClient>iCreateCommunicatingJob (line 715)
+  In parallel.internal.pool.InteractiveClient/start (line 325)
+  In parallel.Pool>iStartClient (line 593)
+  In parallel.Pool.hBuildPool (line 472)
+  In parallel.internal.pool.doParpool (line 18)
+  In parpool (line 89)
+  In Lab1b (line 4)
+  In Lab1c (line 2)] 
+connected to 1 workers.
+Parallel pool using the 'local' profile is shutting down.
+    7.3640
+
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 2 workers.
+Parallel pool using the 'local' profile is shutting down.
+    4.9501
+
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 3 workers.
+Parallel pool using the 'local' profile is shutting down.
+    4.1492
+
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 4 workers.
+Parallel pool using the 'local' profile is shutting down.
+    4.2623
+
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 5 workers.
+Parallel pool using the 'local' profile is shutting down.
+    4.2512
+
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 6 workers.
+Parallel pool using the 'local' profile is shutting down.
+    4.1576
+
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 7 workers.
+Parallel pool using the 'local' profile is shutting down.
+    4.2156
+
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 8 workers.
+Parallel pool using the 'local' profile is shutting down.
+    4.1824
+
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 9 workers.
+Parallel pool using the 'local' profile is shutting down.
+    4.2476
+
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 10 workers.
+Parallel pool using the 'local' profile is shutting down.
+    4.1703
+
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 11 workers.
+Parallel pool using the 'local' profile is shutting down.
+    4.2853
+
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 12 workers.
+Parallel pool using the 'local' profile is shutting down.
+    4.2949
+
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 13 workers.
+Parallel pool using the 'local' profile is shutting down.
+    4.3536
+
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 14 workers.
+Parallel pool using the 'local' profile is shutting down.
+    4.3098
+
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 15 workers.
+Parallel pool using the 'local' profile is shutting down.
+    4.4613
+
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 16 workers.
+Parallel pool using the 'local' profile is shutting down.
+    4.3958
+
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 17 workers.
+Parallel pool using the 'local' profile is shutting down.
+    4.4818
+
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 18 workers.
+Parallel pool using the 'local' profile is shutting down.
+    4.6740
+
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 19 workers.
+Parallel pool using the 'local' profile is shutting down.
+    4.4118
+
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 20 workers.
+Parallel pool using the 'local' profile is shutting down.
+    4.6544
+
+>> ------------------------------------------------------
+Running PBS epilogue script    - 25-Sep-2019 18:43:23
+------------------------------------------------------
+Checking node qb132 (MS)
+Checking node qb132 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 25-Sep-2019 18:43:26
+------------------------------------------------------
+Exit Status:     0
+Job ID:          698606.qb3
+Username:        drayborn
+Group:           latechusers
+Job Name:        myjob0
+Session Id:      118465
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=01:00:00
+Resources Used:  cput=00:33:28,mem=8547072kb,vmem=67401116kb,walltime=00:07:30
+Queue Used:      workq
+Account String:  loni_cyen405
+Node:            qb132
+Process id:      6505
+------------------------------------------------------
